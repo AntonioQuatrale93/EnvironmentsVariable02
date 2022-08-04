@@ -1,0 +1,10 @@
+spring:
+  profiles: test
+server:
+  port: 4000
+
+---
+spring:
+  profiles: prod
+server:
+  port: 5000
