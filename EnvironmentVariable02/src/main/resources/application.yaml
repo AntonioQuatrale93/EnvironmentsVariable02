@@ -1,0 +1,21 @@
+spring:
+myCustomVarTree:
+  welcomeMsg: Welcome from Default
+
+---
+spring:
+  profiles: test
+myCustomVarTree:
+  welcomeMsg: Welcome from test
+server:
+  port: 4000
+
+---
+spring:
+  profiles: prod
+myCustomVarTree:
+  welcomeMsg: Welcome from prod
+server:
+  port: 5000
+
+
